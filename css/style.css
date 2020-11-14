@@ -142,6 +142,25 @@ body {
     color: white;
 }
 
+.btn--white {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f05f40;
+}
+
+.btn--white:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:active:focus {
+    background-color: #df4929;
+    border-color: white;
+    color: white;
+}
+
 /* Alert */
 
 .alert-container .col-12 {
@@ -188,14 +207,4 @@ body {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
-}
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
 }

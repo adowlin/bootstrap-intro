@@ -137,8 +137,8 @@ body {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color: #cc3f20;
+    border-color: #cc3f20;
     color: white;
 }
 
@@ -156,7 +156,7 @@ body {
 .btn--white:active,
 .btn--white:focus,
 .btn--white:active:focus {
-    background-color: #df4929;
+    background-color: #cc3f20;
     border-color: white;
     color: white;
 }
@@ -207,4 +207,21 @@ body {
     margin-bottom: 20px;
     font-size: 45px;
     line-height: 45px;
+}
+
+/* Monthly Favorites */
+
+.thead {
+    background-color: #cc3f20;
+    color: white;
+    border: 1px solid white;
+}
+
+.tbody {
+    background-color: #f05f40;
+    color: white;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    color: white;
 }

@@ -229,3 +229,13 @@ body {
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
     color: white;
 }
+
+/* Modal */
+
+.modal-scrollbar-measure {
+    overflow: hidden !Important;
+} /* This removes the scrollbar that bootstrap's modal inserts when modal is opened (which caused content to "jump" upon opening modal) */
+
+.modal-open {
+    overflow-y: auto; 
+} /* This allows background scroll when modal is open, results in default browser scollbar staying visible, fixes all content "jumps" when opening modal */ 
